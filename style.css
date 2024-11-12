@@ -1,0 +1,52 @@
+html {
+    font-family: 'Faculty Glyphic', Helvetica, sans-serif;
+    background: #e6e883;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+.heading-1 {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.inbox {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #ffffe1;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 #0000001a;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e6e883;
+}
+
+.item:last-child {
+    border-bottom: 0;
+}
+
+input:checked + p {
+    background: #fffff0;
+    text-decoration: line-through;
+}
+
+input[type='checkbox'] {
+    margin: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    transition: background 0.2s;
+    flex: 1;
+    font-family: 'Faculty Glyphic', 'helvetica neue';
+    font-size: 15px;
+    font-weight: 200;
+    border-left: 1px solid #e6e883;
+}

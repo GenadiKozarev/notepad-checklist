@@ -1,5 +1,5 @@
 const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
-const unCheckAllButton = document.querySelector('button.vertical');
+const unCheckAllButton = document.querySelector('button.btn-vertical');
 let lastChecked;
 
 function unCheckAll() {

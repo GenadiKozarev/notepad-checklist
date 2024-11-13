@@ -11,11 +11,12 @@ body {
 .heading-1 {
     text-align: center;
     margin-top: 35px;
+    text-shadow: 3px 3px 0 #fff;
 }
 
 .inbox {
     max-width: 400px;
-    margin: 50px auto;
+    margin: 25px auto;
     background: #ffffe1;
     border-radius: 5px;
     box-shadow: 10px 10px 0 #0000001a;
@@ -45,8 +46,21 @@ p {
     padding: 20px;
     transition: background 0.2s;
     flex: 1;
-    font-family: 'Faculty Glyphic', 'helvetica neue';
     font-size: 15px;
     font-weight: 200;
     border-left: 1px solid #e6e883;
+}
+
+.btn-vertical {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Faculty Glyphic', 'helvetica neue';
+    padding: 10px;
+    background-color: #00000021;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
 }
